@@ -47,14 +47,16 @@ The project is fully runnable in **Google Colab** and includes a synthetic datas
 
 ## Installation
 
-Clone this repository:
-
-```bash
+# 1️. Clone the GitHub repository
 git clone https://github.com/ThreatAnalyzer/AI-SOC-Lab.git
+
+# 2️. Move into the project folder
 cd AI-SOC-Lab
 
+# 3️. Install all required Python packages
 pip install -r requirements.txt
 
+# 4️. (Optional) Run the notebook locally
+# jupyter notebook notebooks/AI_SOC_Lab.ipynb
 
-
-
+# OR open in Colab using the badge in README
