@@ -1,0 +1,6 @@
+timestamp,source_ip,dest_ip,protocol,action,severity,hour_of_day,is_tcp,is_udp,source_ip_count,dest_ip_count,failed_login_flag,mitre_tactic
+2026-01-01 10:00:00,192.168.1.10,10.0.0.20,TCP,BENIGN,0,10,1,0,2,2,0,None
+2026-01-01 10:05:00,10.0.0.5,192.168.1.1,UDP,PortScan,2,10,0,1,1,2,1,Discovery
+2026-01-01 10:10:00,192.168.1.10,10.0.0.15,TCP,DoS,3,10,1,0,2,1,0,Impact
+2026-01-01 10:15:00,172.16.0.2,10.0.0.20,TCP,BENIGN,0,10,1,0,1,2,0,None
+2026-01-01 10:20:00,10.0.0.7,192.168.1.1,UDP,Botnet,3,10,0,1,1,2,1,Command and Control
